@@ -10,7 +10,7 @@
 /* estilos del body*/
 
 body{
-    background: rgb(208,10,203);
+    background-color: black;
 background: linear-gradient(0deg, rgba(208,10,203,1) 0%, rgba(88,236,187,1) 100%);
     font-family: 'Roboto', sans-serif;
 }
