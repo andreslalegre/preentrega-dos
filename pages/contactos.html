@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contactos </title>
+</head>
+<body>
+    <header id="arriba">
+        <h1> DATOS </h1>
+    </header>
+    <!-- enlace relativo-->
+    <div>
+        <a href="../index.html">ir a la home</a>
+    </div>
+
+    <!-- enlance interno-->
+    <div>
+        <a href="#arriba">ir arriba</a>
+    </div>
+
+
+    <!-- formularios -->
+    <form>
+        <fieldset>
+            <legend> Envia tus datos </legend>
+            <div>
+                <label for=""> Completa tu nombre</label>
+                <input type="text" name="nombre" placeholder="Andres Alegre">
+            </div>
+            <div>
+                <label for=""> Completa tu mail </label>
+                <input type="email" name="mail"
+                placeholder="tumail@gamil.com">
+            </div>
+            <div>
+                <label for="pais"> Selecciona tu pais </label>
+                <select name="pais" id="">
+                    <option value="argentina"> Argentina</option>
+                    <option value="uruguay"> Uruguay </option>
+                    <option value="chile"> Chile </option>
+                    <option value="brasil"> Brasil </option>
+                    <option value="paraguay"> Paraguay </option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="Envia tus datos">
+                <input type="reset" value="Borrar todo">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
